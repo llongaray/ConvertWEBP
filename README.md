@@ -1,23 +1,26 @@
-# Bibliotecas Utilizadas:
-- os
-- PIL (Pillow)
-- tkinter
+# Conversor e Renomeador de Arquivos
 
-# Funcionalidades:
-O script oferece uma interface gráfica para converter e renomear arquivos de imagem em um formato específico. Ele foi desenvolvido para:
+Este é um script em Python que utiliza a biblioteca PIL (Pillow) para converter e renomear arquivos de imagem em um formato específico. Você também pode optar por executar o programa através do arquivo executável gerado pelo PyInstaller.
 
-1. Selecionar um diretório de origem.
-2. Definir o formato desejado para a conversão.
-3. Especificar a qualidade da conversão (0-100).
-4. Exibir o progresso da conversão em uma barra de progresso.
-5. Converter os arquivos para o formato desejado e renomeá-los.
+## Uso
 
-# Como Usar:
-1. Execute o script em um ambiente Python.
-2. Selecione o diretório de origem clicando no botão "Selecionar Pasta".
-3. Insira o formato desejado e a qualidade da conversão.
-4. Clique no botão "Processar" para iniciar o processo.
-5. A barra de progresso mostrará o andamento da conversão.
-6. Após a conclusão, a mensagem "Arquivos renomeados e convertidos!" será exibida.
+### Executável (Windows)
 
-Observação: Certifique-se de ter a biblioteca Pillow instalada antes de executar o script.
+Para facilitar o uso, você pode utilizar o arquivo executável disponível. Basta baixar o arquivo .exe do [releases](link-para-releases) e executá-lo.
+
+### Execução via Código
+
+Se preferir executar o código diretamente, siga os passos abaixo:
+
+1. Certifique-se de ter a biblioteca Pillow instalada:
+
+   pip install Pillow
+
+2. Execute o script Python em um ambiente que atenda aos requisitos.
+3. Se você gerou um executável com o PyInstaller, navegue até o diretório `dist`.
+4. Execute o arquivo executável gerado (por exemplo, `main.exe`).
+5. Selecione o diretório de origem clicando no botão "Selecionar Pasta".
+6. Insira o formato desejado e a qualidade da conversão.
+7. Clique no botão "Processar" para iniciar o processo.
+8. A barra de progresso mostrará o andamento da conversão.
+9. Após a conclusão, a mensagem "Arquivos renomeados e convertidos!" será exibida.
